@@ -1,0 +1,52 @@
+*{
+	background: black;
+}
+body {
+	margin: 0px;
+}
+.container {
+	margin-top: 30px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+	cursor: pointer;
+	font-size: 3em;
+	border-bottom: 2px solid #255217;
+	border-right: 2px solid #255217;
+	border-left: 2px solid #255217;
+	box-shadow: 4px 4px 5px #222222;
+	border-radius: 5px;
+	width: 400px;
+	text-align: center;
+	margin:auto;
+	margin-top: 20px;
+	transition: all 0.5s;
+}
+img {
+	width:450px;
+	height:300px;
+	margin: 10px;
+	transition: all 0.5s;
+	border: 2px solid #222;
+
+}
+img:hover{
+	transform: scale(1.1);
+}
+h1:hover{
+
+	color: #287518;
+	font-size: 3.01em;
+}
+.foot{
+	color: white;
+	text-align: center;
+	font-family: cursive;
+	height: 2em;
+	background-color: #255217;
+	font-size: 1em;
+}
